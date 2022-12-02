@@ -1,0 +1,84 @@
+nav{
+    font-family: "Roboto";
+    background-color:#152534;
+    font-size:20px;
+    font-weight: 800;
+    position: fixed;
+    width: 100vw;
+    text-decoration: none;
+    z-index: 1;
+}
+#identificador{
+    font-family:"Poppins";
+    font-size: 32px;
+    font-weight: 700;
+}
+span{ 
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0 0 12px;
+    color:#fff;
+    display:block;
+    line-height: 1.1;
+    padding: 0 13px;
+    position: relative;
+}
+#hero-section{
+    background-color:#e2dace;}
+
+#sobre-mi{
+    color: #152534;
+    font-family: "Roboto";
+    font-weight: 600;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+#MiExperiencia{
+    font-family: "Poppins";
+   
+}
+#MiExperiencia h2{
+    font-weight: 600;
+    font-size: 48px;
+}
+#MisultimosTrabajos{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #3a465c;
+    color: #152534;
+   
+}
+#Contacto h1{
+    font-family: "Poppins";
+    font-size: 48px;
+}
+footer{
+    background-color: #fbc512;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #152534;
+}
+#redes a{
+    color:#152534;
+    text-decoration: none;
+}
+span::before{
+    background: linear-gradient(90deg,var(--start-color),var(--end-color));
+    content:var(--content);
+    position: absolute;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated 9s infinite;
+    animation-delay: var(--delay);
+}
+
+@keyframes animated{
+    0%, 16.667%, 100%{
+        opacity: 1;
+    }
+    33.333%, 83.333%{
+        opacity: 0;
+    }
+}
